@@ -1,4 +1,3 @@
-
 export default function HeroSection(){
 
     return (
@@ -16,10 +15,11 @@ export default function HeroSection(){
               className="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-50 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-            
+          <div className="flex mx-auto max-w-5xl py-32 sm:py-48 lg:py-40">
+          <img className="hidden md:block w-1/3" src='/savings-76.png' alt="Hero Image" /> 
+
             <div className="text-center">
-              <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
+              <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
                 KharchaWise
               </h1>
               <h3 className="text-3xl font-semibold tracking-tight text-balance text-teal-700 sm:text-4xl">
@@ -31,11 +31,12 @@ export default function HeroSection(){
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"
-                  className="rounded-md bg-teal-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="rounded-md bg-teal-800 px-3.5 py-2.5 text-m font-semibold text-white shadow-xs hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
                 </a>                
               </div>
+
             </div>
           </div>
         </div>
