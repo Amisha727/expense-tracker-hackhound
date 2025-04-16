@@ -1,7 +1,7 @@
 export default function HeroSection(){
 
     return (
-      <div className="bg-teal-100">
+      <div className="bg-teal-100 pt-10">
         <div className="relative isolate px-6 lg:px-8">
           <div
             aria-hidden="true"
@@ -15,17 +15,17 @@ export default function HeroSection(){
               className="relative left-[calc(50%-11rem)] aspect-1155/678 w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-50 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             />
           </div>
-          <div className="flex mx-auto max-w-5xl py-32 sm:py-48 lg:py-40">
+          <div className="flex mx-auto max-w-5xl py-45 sm:py-48 lg:py-36">
           <img className="hidden md:block w-1/3" src='/savings-76.png' alt="Hero Image" /> 
 
             <div className="text-center">
-              <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">
+              <h1 className="text-5xl font-semibold tracking-tight text-balance text-black sm:text-6xl">
                 KharchaWise
               </h1>
               <h3 className="text-3xl font-semibold tracking-tight text-balance text-teal-700 sm:text-4xl">
                 All Expense Tracker
               </h3>
-              <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
+              <p className="mt-8 text-lg font-medium text-pretty text-gray-700 sm:text-xl/8">
               Tracking your kharchas just got smarter! Whether it's your daily chai or a big-ticket splurge, we help you stay on top of your paisa, effortlessly.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
