@@ -30,7 +30,7 @@ export default function HeroSection(){
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
+                  href="/sign-up"
                   className="rounded-md bg-teal-800 px-3.5 py-2.5 text-m font-semibold text-white shadow-xs hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
