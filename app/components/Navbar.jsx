@@ -1,9 +1,9 @@
+'use client'
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Link from 'next/link';
 const navigation = [
-    { name: 'Home', href: '#' },
+    { name: 'Home', href: '/' },
     { name: 'About', href: '#' },
     { name: 'Features', href: '#' },
   ]
@@ -35,13 +35,13 @@ return(
       </div>
       <div className="hidden lg:flex lg:gap-x-12">
         {navigation.map((item) => (
-          <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+          <a key={item.name} href={item.href} className="text-m/6 font-semibold text-gray-900">
             {item.name}
           </a>
         ))}
       </div>
       <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" className="text-sm/6 font-semibold text-gray-900">
+        <a href="/login" className="text-sm/6 font-semibold text-gray-900">
           Log in <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
@@ -82,7 +82,7 @@ return(
             </div>
             <div className="py-6">
               <a
-                href="#"
+                href="/login"
                 className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
               >
                 Log in

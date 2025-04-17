@@ -1,6 +1,13 @@
 'use client'
-import HomePage from "./pages/HomePage";
-
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
 export default function Home() {
-  return <HomePage />;
+  return (
+    <div>
+        <Navbar />
+        <HeroSection />
+        <About />
+    </div>
+    )
 }
