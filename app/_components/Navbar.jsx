@@ -2,10 +2,13 @@
 import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+<<<<<<< HEAD:app/_components/Navbar.jsx
 import Link from 'next/link';
 import { useUser , UserButton } from '@clerk/nextjs';
+=======
+>>>>>>> 2447cda3b40c38fa4b23509a97183e2d28a384d5:app/components/Navbar.jsx
 const navigation = [
-    { name: 'Home', href: '#' },
+    { name: 'Home', href: '/' },
     { name: 'About', href: '#' },
     { name: 'Features', href: '#' },
   ]
@@ -38,18 +41,24 @@ return(
       </div>
       <div className="hidden lg:flex lg:gap-x-12">
         {navigation.map((item) => (
-          <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-gray-900">
+          <a key={item.name} href={item.href} className="text-m/6 font-semibold text-gray-900">
             {item.name}
           </a>
         ))}
       </div>
       <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+<<<<<<< HEAD:app/_components/Navbar.jsx
         {isSignedIn? 
        <UserButton/> : <a href="/sign-in" className="text-sm/6 font-semibold text-gray-900">
        Log in <span aria-hidden="true">&rarr;</span>
      </a>  
       }
         
+=======
+        <a href="/login" className="text-sm/6 font-semibold text-gray-900">
+          Log in <span aria-hidden="true">&rarr;</span>
+        </a>
+>>>>>>> 2447cda3b40c38fa4b23509a97183e2d28a384d5:app/components/Navbar.jsx
       </div>
     </nav>
     <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
@@ -89,6 +98,10 @@ return(
             <div className="py-6">
             
               <a
+<<<<<<< HEAD:app/_components/Navbar.jsx
+=======
+                href="/login"
+>>>>>>> 2447cda3b40c38fa4b23509a97183e2d28a384d5:app/components/Navbar.jsx
                 className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
               >
                 Log in
