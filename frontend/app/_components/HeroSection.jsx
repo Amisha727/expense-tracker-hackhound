@@ -22,7 +22,7 @@ export default function HeroSection(){
                   className="rounded-md bg-teal-800 px-3.5 py-2.5 text-m font-semibold text-white shadow-xs hover:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Get started
-                </a>                
+                </a>
               </div>
 
             </div>
